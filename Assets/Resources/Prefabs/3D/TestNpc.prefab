@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5733387158907380038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4044042681180473233}
+  - component: {fileID: 3114265264358603826}
+  m_Layer: 0
+  m_Name: ZenitECameraDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4044042681180473233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5733387158907380038}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5041818287901568165}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3114265264358603826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5733387158907380038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357204e2ab335b14c81da9598f1f28b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueNodes:
+  - nodeText: "\u0425\u043E\u0442\u0438\u0442\u0435 \u0443\u0437\u043D\u0430\u0442\u044C
+      \u043E\u0431 \u044D\u0442\u043E\u043C \u0444\u043E\u0442\u043E\u0430\u043F\u043F\u0430\u0440\u0430\u0442\u0435?"
+    characterName: "\u041D\u0435\u043A\u0438\u0439 \u0440\u0435\u0441\u0442\u0430\u0432\u0440\u0430\u0442\u043E\u0440"
+    choices:
+    - choiceText: "\u0414\u0430"
+      nextNodeIndex: 1
+    - choiceText: "\u041D\u0435\u0442"
+      nextNodeIndex: 2
+  - nodeText: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E! \u0412 \u0432\u0430\u0448\u0438\u0445
+      \u0440\u0443\u043A\u0430\u0445 \u043B\u0435\u0436\u0438\u0442 \u0444\u043E\u0442\u043E\u0430\u043F\u043F\u0430\u0440\u0430\u0442
+      ZENIT-E, \u0441\u043E\u0437\u0434\u0430\u043D\u043D\u044B\u0439 \u0432 \u0421\u0421\u0421\u0420
+      \u0432 1965 \u0433. \u0421\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044F
+      \u0441\u0430\u043C\u044B\u043C \u043C\u0430\u0441\u0441\u043E\u0432\u044B\u043C
+      \u0432 \u043C\u0438\u0440\u0435 \u0437\u0435\u0440\u043A\u0430\u043B\u044C\u043D\u044B\u043C
+      \u0444\u043E\u0442\u043E\u0430\u043F\u043F\u0430\u0440\u0430\u0442\u043E\u043C
+      \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F \u043F\u0440\u043E\u0441\u0442\u043E\u0442\u0435
+      \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438 \u0438 \u0434\u0435\u0448\u0435\u0432\u0438\u0437\u043D\u0435
+      \u0440\u0435\u043C\u043E\u043D\u0442\u0430."
+    characterName: "\u041D\u0435\u043A\u0438\u0439 \u0440\u0435\u0441\u0442\u0430\u0432\u0440\u0430\u0442\u043E\u0440"
+    choices: []
+  - nodeText: "\u0416\u0430\u043B\u044C, \u043D\u043E \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435
+      \u0432\u0441\u0435\u0433\u0434\u0430 \u043E\u0431\u0440\u0430\u0442\u0438\u0442\u044C\u0441\u044F
+      \u0432\u043D\u043E\u0432\u044C."
+    characterName: "\u041D\u0435\u043A\u0438\u0439 \u0440\u0435\u0441\u0442\u0430\u0432\u0440\u0430\u0442\u043E\u0440"
+    choices: []
+  flowChannel: {fileID: 11400000, guid: 2f08a230f028a324186ff5eecf9195e2, type: 2}
+  dialogueWindowController: {fileID: 0}
+  onDialogueEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &7344655761491957871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 360310978617479370}
+  - component: {fileID: 2261974807211132921}
+  m_Layer: 0
+  m_Name: DefaultDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &360310978617479370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344655761491957871}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5041818287901568165}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2261974807211132921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344655761491957871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357204e2ab335b14c81da9598f1f28b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueNodes:
+  - nodeText: "\u0425\u043E\u0442\u0438\u0442\u0435 \u0443\u0437\u043D\u0430\u0442\u044C
+      \u043F\u043E\u0431\u043E\u043B\u044C\u0448\u0435 \u043E \u0440\u0435\u0441\u0442\u0430\u0432\u0440\u0430\u0446\u0438\u0438?"
+    characterName: "\u041D\u0430\u0441\u0442\u0430\u0432\u043D\u0438\u043A"
+    choices:
+    - choiceText: "\u0414\u0430"
+      nextNodeIndex: 1
+    - choiceText: "\u041D\u0435\u0442"
+      nextNodeIndex: 2
+  - nodeText: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E! \u0412 \u043E\u0431\u0449\u0435\u043C..."
+    characterName: "\u041D\u0430\u0441\u0442\u0430\u0432\u043D\u0438\u043A"
+    choices: []
+  - nodeText: "\u041D\u0443 \u043B\u0430\u0434\u043D\u043E, \u0435\u0441\u043B\u0438
+      \u0432\u0441\u0451 \u0436\u0435 \u043F\u0440\u0435\u0435\u0434\u0443\u043C\u0430\u0435\u0442\u0435
+      - \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442\u0435 \u0432 \u043B\u044E\u0431\u043E\u0435
+      \u0432\u0440\u0435\u043C\u044F!"
+    characterName: "\u041D\u0430\u0441\u0442\u0430\u0432\u043D\u0438\u043A"
+    choices: []
+  flowChannel: {fileID: 11400000, guid: 2f08a230f028a324186ff5eecf9195e2, type: 2}
+  dialogueWindowController: {fileID: 0}
+  onDialogueEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &9087618548640650699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5041818287901568165}
+  - component: {fileID: 4312688864153608529}
+  - component: {fileID: 1894970403323288482}
+  - component: {fileID: 4838122119233402227}
+  - component: {fileID: 6964236261750948806}
+  - component: {fileID: 106070535120211367}
+  - component: {fileID: 4137751103194712876}
+  m_Layer: 0
+  m_Name: TestNpc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5041818287901568165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087618548640650699}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.19149819, y: 2.0636206, z: -2.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 360310978617479370}
+  - {fileID: 4044042681180473233}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4312688864153608529
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087618548640650699}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1894970403323288482
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087618548640650699}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &4838122119233402227
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087618548640650699}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &6964236261750948806
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087618548640650699}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &106070535120211367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087618548640650699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9ef8e505c6230478d04ccd9f8258e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: "\u041D\u0430\u0441\u0442\u0430\u0432\u043D\u0438\u043A"
+  crosshairTooltip: {fileID: 11400000, guid: 8cee3bfc8101e644c9d3981a4815ec17, type: 2}
+  defaultDialogue: {fileID: 2261974807211132921}
+  hasSpecialDialogues: 1
+  hotbarController: {fileID: 0}
+  dialogues:
+  - specialDialogue: {fileID: 3114265264358603826}
+    triggerItem: {fileID: 11400000, guid: ed8ba859bff7f0f4d9a016c51ed11944, type: 2}
+--- !u!114 &4137751103194712876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087618548640650699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b9af60869b19043b38c4ab01ffafb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactAction:
+    m_Name: Interact
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c1ed1847-187b-4357-a819-0769897fad4b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: b9b087cf-2371-47f4-94cc-801b0b4a7e46
+      m_Path: <Keyboard>/f
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Interact
+      m_Flags: 0
+    m_Flags: 0
+  onMouseEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseOver:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 106070535120211367}
+        m_TargetAssemblyTypeName: NPCController, Assembly-CSharp
+        m_MethodName: WhileTargeted
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 106070535120211367}
+        m_TargetAssemblyTypeName: NPCController, Assembly-CSharp
+        m_MethodName: OnInteracted
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onMouseExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 106070535120211367}
+        m_TargetAssemblyTypeName: NPCController, Assembly-CSharp
+        m_MethodName: OnLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
